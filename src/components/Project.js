@@ -18,14 +18,14 @@ const Project = () => {
     }, [])
 
     return (
-        <main className="bg-green-100 min-h-screen p-12">
+        <main className="bg-gray-300 min-h-screen p-12">
             <section className="container mx-auto">
-                <h1 className="text-5xl flex justify-center cursive">My Projects</h1>
+                <h1 className="text-5xl flex justify-center cursive pb-1">My Projects</h1>
                 <h2 className="text-lg text-gray-600 flex justify-center mb-12">Welcome to my projects Page!</h2>
-                <section className="grid grid-cols-2 gap-8">
+                <section className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
                     {projectData && projectData.map((project, index) => (
-                        <article className="relative rounded-lg shadow-sl bg-white p-16">
-                            <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
+                        <article className="relative rounded-lg shadow-sl bg-white p-8">
+                            <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:underline hover:text-gray-500">
                                 <a
                                     href={project.link}
                                     alt={project.title}
@@ -51,9 +51,9 @@ const Project = () => {
                                 <p className="my-6 text-lg text-gray-700 leading-relaxed">
                                     {project.description}
                                 </p>
-                                <a href={project.link} rel="noopener noreferrer" target="_blank" className="text-red-500 font-bold hover:underline hover:text-red-400 text-xl">
+                                <a href={project.link} rel="noopener noreferrer" target="_blank" className="text-purple-400 font-bold hover:underline hover:text-purple-500 text-xl">
                                         View The Project{" "}
-                                    <span role="img" aria-label="right pointer">👉</span>
+                                    <span role="img" aria-label="right pointer" className="pl-2">👉</span>
                                 </a>
                                 
                             </div>

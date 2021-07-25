@@ -4,30 +4,30 @@ import { SocialIcon } from 'react-social-icons'
 
 const NavBar = () => {
     return (
-        <header className="bg-red-600">
+        <header className="bg-gray-700">
             <div className="container mx-auto flex justify-between">
                 <nav className="flex">
                     <NavLink to="/" exact 
                         activeClassName="text-white" 
-                        className="inflex-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest"
+                        className="inflex-flex items-center py-6 px-3 mr-4 text-gray-100 hover:text-purple-300 text-4xl font-bold cursive tracking-widest"
                     >
                         Carson
                     </NavLink>
                     <NavLink to="/post"
-                        className="inflex-flex items-center py-3 px-3 my-6 text-red-200 hover:text-green-800"
-                        activeClassName="text-red-100 bg-red-700"
+                        className="inflex-flex items-center py-3 px-3 my-6 text-gray-100 hover:text-purple-300"
+                        activeClassName="text-gray-100 bg-gray-500"
                     >
                         Blog Posts
                     </NavLink>
                     <NavLink to="/project"
-                        className="inflex-flex items-center py-3 px-3 my-6 text-red-200 hover:text-green-800"
-                        activeClassName="text-red-100 bg-red-700"
+                        className="inflex-flex items-center py-3 px-3 my-6 text-gray-100 hover:text-purple-300"
+                        activeClassName="text-gray-100 bg-gray-500"
                     >
                         Projects
                     </NavLink>
                     <NavLink to="/about"
-                        className="inflex-flex items-center py-3 px-3 my-6 text-red-200 hover:text-green-800"
-                        activeClassName="text-red-100 bg-red-700"
+                        className="inflex-flex items-center py-3 px-3 my-6 text-gray-100 hover:text-purple-300"
+                        activeClassName="text-gray-100 bg-gray-500"
                     >
                         About Me!
                     </NavLink>

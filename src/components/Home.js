@@ -1,5 +1,4 @@
 import React from 'react'
-import image from '../../src/guatemala.jpg'
 import danville from '../../src/danville.jpg'
 
 const Home = () => {

@@ -13,5 +13,11 @@
 }
 
 .home-name {
-  font-size: 125px;
+  font-size: 120px;
+}
+
+.home-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 30rem;
 }

@@ -30,7 +30,7 @@ const Post = () => {
                 <h2 className="text-lg text-gray-600 flex justify-center mb-12">Welcome</h2>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {postData && postData.map((post, index) => (
-                    <article>
+                    <article className='shadow-sm'>
                         <Link to={"/post/" + post.slug.current} key={post.slug.current}>
                             <span className="block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-purple-400" 
                                 key={index}>

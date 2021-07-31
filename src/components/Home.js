@@ -16,7 +16,7 @@ const Home = () => {
                             <button className='px-7 py-2 bg-gray-600 text-gray-100 rounded-xl hover:bg-purple-500 focus:bg-purple-300 tracking-widest mr-8'>GitHub</button>
                         </a>
                         <a href='https://www.linkedin.com/in/carson-richter-42362132' rel="noopener noreferrer" target="_blank"> 
-                            <button className='px-7 py-2 bg-gray-600 text-gray-100 rounded-xl hover:bg-purple-500 focus:bg-purple-300 tracking-widest'>LinkedIn</button>
+                            <button className='px-7 py-2 bg-gray-600 text-gray-100 rounded-xl hover:bg-purple-500 focus:bg-purple-300 tracking-widest'>Contact Me</button>
                         </a>
                     </div>
                     
@@ -28,14 +28,14 @@ const Home = () => {
                 <h3 className='text-5xl text-gray-700 mb-6'>Technologies</h3>
                 <h4 className='text-2xl text-gray-700 text-center w-10/12 mb-10 sm:w-8/12'>Focusing on front-end development with a minimalist design that is naturally intuitive</h4>
                 <div className='grid grid-cols-1 gap-y-6 gap-x-10 mb-20 sm:grid-cols-2 sm:gap-y-8'>
-                    <p className='px-14 py-2 bg-gray-700 text-gray-100 text-center rounded-xl font-bold'>HTML</p>
-                    <p className='px-14 py-2 bg-gray-700 text-gray-100 text-center rounded-xl font-bold'>CSS</p>
-                    <p className='px-14 py-2 bg-gray-700 text-gray-100 text-center rounded-xl font-bold'>Javascript</p>
-                    <p className='px-14 py-2 bg-gray-700 text-gray-100 text-center rounded-xl font-bold'>React</p>
+                    <p className='px-14 py-2 bg-transparent border-2 border-gray-700 text-gray-700 text-center rounded-md font-bold'>HTML</p>
+                    <p className='px-14 py-2 bg-transparent border-2 border-gray-700 text-gray-700 text-center rounded-md font-bold'>CSS</p>
+                    <p className='px-14 py-2 bg-transparent border-2 border-gray-700 text-gray-700 text-center rounded-md font-bold'>Javascript</p>
+                    <p className='px-14 py-2 bg-transparent border-2 border-gray-700 text-gray-700 text-center rounded-md font-bold'>React</p>
                 </div>
             </secion>
             <secion className='flex flex-col items-center pt-20 pb-20'>
-                <h3 className='text-5xl text-gray-700 mb-8'>Skills</h3>
+                <h3 className='text-5xl text-gray-700 mb-10'>Skills</h3>
                 <div className='grid grid-cols-1 gap-y-6 md:gap-x-4 md:grid-cols-3 md:px-6'>
                     <div className='max-w-md bg-white py-5 px-6 rounded-lg shadow-md'>
                         <div className='flex flex-col mb-4'>
@@ -55,7 +55,7 @@ const Home = () => {
                         <div className='flex flex-col mb-4'>
                             <ChartPieIcon className='h-10 w-10 mb-2'/> 
                             <h4 className='text-2xl font-semibold mb-2'>User Experience</h4>
-                            <p>Utilized Power BI to build real-time dashboards for the sales organization and management team to enable portfolio monitoring and portfolio steering.</p>
+                            <p>Designed dashboards in Power BI to enable the sales organization to manage their respective portfolios and sales pipelines.</p>
                         </div>
                     </div>
                 

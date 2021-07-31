@@ -31,6 +31,7 @@ const NavBar = () => {
                     >
                         About Me
                     </NavLink>
+                    
                 </nav>
                 <div className="inline-flex py-3 px-3 my-6 hidden md:block">
                     <SocialIcon url="https://www.linkedin.com/in/carson-richter-42362132" className="mr-4" target="_blank" fgColor="#fff" style={{height: 35, width: 35}}/>
